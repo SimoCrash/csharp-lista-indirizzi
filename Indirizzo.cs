@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace csharp_lista_indirizzi
 {
-    public class Indirizzo
+    public record Indirizzo
     {
+
         public Indirizzo(string name, string surname, string street, string city, string province, int ZIP)
         {
             Name = name;
